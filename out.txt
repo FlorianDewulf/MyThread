@@ -1,0 +1,92 @@
+Main: Le thread ID du main est 100.
+Main: Démarrage du thread numéro 0
+Main: thread avec ID 101 crée.
+Main: Démarrage du thread numéro 1
+Main: thread avec ID 102 crée.
+Main: Démarrage du thread numéro 2
+Main: thread avec ID 103 crée.
+Main: je joins le thread ID 101
+ThreadCeder():
+ThreadID:100	État:B
+ThreadID:103	État:P
+ThreadID:102	État:P
+ThreadID:101	État:P
+Thread 103 tourne avec une variable sur la pile à 0x0x91925dc.
+ThreadCeder():
+ThreadID:103	État:E
+ThreadID:102	État:P
+ThreadID:101	État:P
+ThreadID:100	État:B
+Thread 102 tourne avec une variable sur la pile à 0x0x919145c.
+ThreadCeder():
+ThreadID:102	État:E
+ThreadID:101	État:P
+ThreadID:100	État:B
+ThreadID:103	État:P
+Thread 101 tourne avec une variable sur la pile à 0x0x91902dc.
+ThreadCeder():
+ThreadID:101	État:E
+ThreadID:100	État:B
+ThreadID:103	État:P
+ThreadID:102	État:P
+Thread 103 tourne avec une variable sur la pile à 0x0x91925dc.
+ThreadCeder():
+ThreadID:103	État:E
+ThreadID:102	État:P
+ThreadID:101	État:P
+ThreadID:100	État:B
+Thread 102 tourne avec une variable sur la pile à 0x0x919145c.
+ThreadCeder():
+ThreadID:102	État:E
+ThreadID:101	État:P
+ThreadID:100	État:B
+ThreadID:103	État:P
+Thread 101 tourne avec une variable sur la pile à 0x0x91902dc.
+ThreadCeder():
+ThreadID:101	État:E
+ThreadID:100	État:B
+ThreadID:103	État:P
+ThreadID:102	État:P
+Thread 103 tourne avec une variable sur la pile à 0x0x91925dc.
+ThreadCeder():
+ThreadID:103	État:E
+ThreadID:102	État:P
+ThreadID:101	État:P
+ThreadID:100	État:B
+Thread 102 tourne avec une variable sur la pile à 0x0x919145c.
+ThreadCeder():
+ThreadID:102	État:E
+ThreadID:101	État:P
+ThreadID:100	État:B
+ThreadID:103	État:P
+Thread 101 tourne avec une variable sur la pile à 0x0x91902dc.
+ThreadCeder():
+ThreadID:101	État:E
+ThreadID:100	État:B
+ThreadID:103	État:P
+ThreadID:102	État:P
+Thread 103 QUITTE!
+ThreadCeder():
+ThreadID:103	État:T
+ThreadID:102	État:P
+ThreadID:101	État:P
+ThreadID:100	État:B
+Thread 102 QUITTE!
+ThreadCeder():
+ThreadID:102	État:T
+ThreadID:101	État:P
+ThreadID:100	État:B
+ThreadID:103	État:T
+Thread 101 QUITTE!
+ThreadCeder():
+ThreadID:101	État:T
+ThreadID:100	État:P
+ThreadID:103	État:T
+ThreadID:102	État:T
+Main: Le join sur le thread 101 vient de retourner!
+Main: je joins le thread ID 102
+Main: Le thread 102 avait déjà terminé!
+Main: je joins le thread ID 103
+Main: Le thread 103 avait déjà terminé!
+Main: tous les threads ont terminé!
+Main: Je détruis tous les threads.
